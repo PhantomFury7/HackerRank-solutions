@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int l,n;
+    float m,o;
+    scanf("%d %d\n", &l, &n);
+    scanf("%f %f",&m,&o);
+    printf("%d %d\n", l+n, l-n);
+    printf("%0.1f %0.1f", m+o, m-o);
+    return 0;
+}
